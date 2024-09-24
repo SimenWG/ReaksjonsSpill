@@ -1,0 +1,65 @@
+<html>
+ 
+<head>
+    <title>Untitled</title>
+</head>
+ 
+<style>
+    input[type=button]
+    { 
+        background-color: #77797c;
+        border: none;
+        border-radius: 10%;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    </style>
+    
+
+<body>
+    <center><strong>
+      <h1 style="color: black">Reflex Game</h1>
+      </strong></center>
+        <center>
+            <h2>Test reaksjonstiden din!</h2>
+        </center>
+        <center>
+            <h3>How To Play</h3>
+            <p>Trykk "start" og click når bakgrunnsfargen endrer seg klikk "stop"!
+            </p>
+ 
+            <br>
+            <form name="response">
+                Change background color to:
+                <select name="bgColorChange">
+                    <option selected>deeppink
+                        <option>aliceblue
+                        <option>crimson
+                        <option>darkkhaki
+                        <option>cadetblue
+                        <option>darkorchid
+                        <option>coral
+                        <option>chocolate
+                        <option>mediumslateblue
+                        <option>tomato
+                        <option>darkslategray
+                        <option>limegreen
+                        <option>cornflowerblue
+                        <option>darkolivegreen
+                </select>
+                <br>
+                <br>
+ 
+                <input type="button" class="btn"
+                       value="Start" onClick="startit()">
+                <input type="button" class="btn" 
+                       value="Stop" onClick="stopTest()">
+            </form>
+        </center>
+</body>
+<script src="script.js"></script>
+ 
+</html>
